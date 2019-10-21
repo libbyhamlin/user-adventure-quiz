@@ -1,5 +1,5 @@
 html {
-  border: 5px solid red;
+  border: 6px solid red;
   border-radius: 0.5cm;
   margin-left: 5px;
   margin-top: 5px;
@@ -52,11 +52,6 @@ img.avatars {
   margin-left: 50px;
   margin-top: 50px;
 }
-
-/* .table {
-      margin-left: auto;
-      margin-right: auto;
-  } */
 
 table {
   margin: 0 auto;
