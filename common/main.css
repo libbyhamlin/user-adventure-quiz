@@ -1,22 +1,40 @@
-@import url("https://fonts.googleapis.com/css?family=Turret+Road&display=swap, https://fonts.googleapis.com/css?family=Rokkitt&display=swap, https://fonts.googleapis.com/css?family=Gurajada&display=swap");
-
 body,
 html {
-  /* font-family:  */
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  border: 2px solid red;
-  /* border-radius: 10px; */
-  border-width: 6px;
-  background-color: black;
+  border: 6px solid red;
+  border-radius: 0.5cm;
+  width: 1280px;
+  height: 60vh;
+  margin: auto;
+  color: white;
+  font-family: "Turret Road", cursive;
 }
 
 h1 {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
   font-family: "Gurajada", serif;
+  color: white;
 }
 
 h2 {
+  text-align: center;
   font-family: "Turret Road", cursive;
+  color: white;
+}
+
+h4 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 25px;
+}
+
+input#avatars {
+  display: none;
+}
+
+input {
+  border: 1px solid red;
+  font-size: 1.5em;
 }
