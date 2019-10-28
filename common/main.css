@@ -30,9 +30,6 @@ h4 {
   margin-left: 25px;
 }
 
-input#avatars {
-  display: none;
-}
 
 input {
   border: 1px solid red;
