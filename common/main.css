@@ -1,0 +1,38 @@
+body,
+html {
+  border: 6px solid red;
+  border-radius: 0.5cm;
+  width: 1280px;
+  height: 60vh;
+  margin: auto;
+  color: white;
+  font-family: "Turret Road", cursive;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Gurajada", serif;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Turret Road", cursive;
+  color: white;
+}
+
+h4 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 25px;
+}
+
+
+input {
+  border: 1px solid red;
+  font-size: 1.5em;
+}

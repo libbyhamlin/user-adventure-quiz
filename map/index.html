@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ghost Buster Game!</title>
+        <link rel="stylesheet" href="map.css">
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+        <section id="header">
+            <h1>Time to Save the World!</h1>
+            <h2>Oh no! The city of New York is under attack, again! <br> Select
+                a ghost to defeat.</h2>
+        </section>
+
+        <section class="stats-main">
+            <div class="stats-container">
+                    <span class="profile-stat-label">Ghost Defeated:</span>
+                    <span id="ghosts"></span>
+                    <span class="profile-stat-label">HP:</span>
+                    <span id="hp"></span>
+                </div>
+        </section>
+    
+        <div class="quest-container">
+            <a class="quest"
+                href="quest.html?id=librarian">
+              <img src="../assets/quests/librarian-quest.png">Defeat the librarian!</p></a>
+             
+              <a class="quest" href="quest.html?id=slimer">
+              <img src="../assets/quests/slimer-quest.png">Defeat Slimer!</p></a>
+            
+              <a class="quest" href="quest.html?id=puft-battle">
+              <img src="../assets/quests/puft-quest.png">Stay Puft!</p></a>
+            </div>
+
+            <div id="quests"><!-- <a class="quest" href="quest.html?id=librarian" style="top: 57%;left: 67%;">A Ghostly Reader</a>
+        
+                <a class="quest" href="quest.html?id=monsters" style="top: 89%;left: 44%;">Slimer's Surprise</a>
+              
+                <a class="quest" href="quest.html?id=marshmallow" style="top: 31%;left: 5%;">The Battle of Stay Puft!</a>--></div>
+            <span class="quest-completed">The City is Saved</span>
+            <script type="module" src="../map/maps.js"></script>
+    </body>
+</html>

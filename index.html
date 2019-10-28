@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ghost Buster Game!</title>
+    <link rel="stylesheet" href="./home/home.css" />
+    <link rel="stylesheet" href="./common/main.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap,
+      https://fonts.googleapis.com/css?family=Rokkitt&display=swap,
+      https://fonts.googleapis.com/css?family=Gurajada&display=swap">
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <img class="logo" src="./assets/GB-logotype-white.png" alt="" />
+      </div>
+      <h1>Adventure Game</h1>
+    </section>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+    <section>
+      <form id="user-sign-up">
+        <p class="text-prompt">
+          <label for="name">Your Adventurer Name:</label>
+          <input id="name" name="name" required>
+        </Section>
+        <table>
+          <tr>
+            <td>
+              <h2>Choose Your Player</h2>
+              <Section class="characters-main">
+                <label>
+                  <input id=avatars type="radio" name="race" required
+                    value="ray">
+                  <img class="avatars" src="./assets/ray-avatar.png">
+                </label>
 
-<body>
+                <label>
+                  <input id=avatars type="radio" name="race" required
+                    value="egon">
+                  <img class="avatars" src="./assets/egon-avatar.png" />
+                </label>
+                <br/>
 
-    <script type="module" src="app.js"></script>
-</body>
+                  <label>
+                    <input id=avatars type="radio" name="race" required
+                      value="peter">
+                    <img id="last" class="avatars"
+                      src="./assets/peter-avatar.png" />
+                  </label>
 
-</html>
+                </td>
+
+                <td>
+
+                  <button>
+                    <img class="table-begin-quest"
+                      src="./assets/save-ny-btn.png">Begin
+                    Quest</button>
+                </form>
+
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <script type="module" src="./home/home.js"></script>
+    </body>
+  </html>
