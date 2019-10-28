@@ -26,49 +26,46 @@
           <label for="name">Your Adventurer Name:</label>
           <input id="name" name="name" required>
         </Section>
+        <table>
+          <tr>
+            <td>
+              <h2>Choose Your Player</h2>
+              <Section class="characters-main">
+                <label>
+                  <input id=avatars type="radio" name="race" required
+                    value="ray">
+                  <img class="avatars" src="./assets/ray-avatar.png">
+                </label>
 
-        <div class="table-avatar">
-
-          <table>
-            <tr>
-              <td>
-                <h2>Choose Your Player</h2>
-                <Section class="characters-main">
-                  <label>
-                    <input id=avatars type="radio" name="race" required
-                      value="ray">
-                    <img class="avatars" src="./assets/ray-avatar.png" alt="" />
-                  </label>
-
-                  <label>
-                    <input id=avatars type="radio" name="race" required
-                      value="egon">
-                    <img class="avatars" src="./assets/egon-avatar.png" alt=""
-                      />
-                  </label>
-                  <br />
+                <label>
+                  <input id=avatars type="radio" name="race" required
+                    value="egon">
+                  <img class="avatars" src="./assets/egon-avatar.png" />
+                </label>
+                <br/>
 
                   <label>
                     <input id=avatars type="radio" name="race" required
                       value="peter">
                     <img id="last" class="avatars"
-                      src="./assets/peter-avatar.png"
-                      alt="" />
+                      src="./assets/peter-avatar.png" />
                   </label>
 
                 </td>
 
                 <td>
 
-                  <button><img class="table-begin-quest"
-                      src="./assets/save-ny-btn.png"
-                      alt="" />Begin Quest</button>
+                  <button>
+                    <img class="table-begin-quest"
+                      src="./assets/save-ny-btn.png">Begin
+                    Quest</button>
+                </form>
 
-                </td>
-              </tr>
-            </table>
-          </div>
-        </section>
-        <script type="module" src="./home/home.js"></script>
-      </body>
-    </html>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <script type="module" src="./home/home.js"></script>
+    </body>
+  </html>
