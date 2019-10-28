@@ -9,11 +9,10 @@ body {
   margin: auto;
   background-color: black;
   color: white;
-  
 }
 
 body {
-  background-image: url("../assets/new-map.png");
+  background-image: url("../assets/quests/new-map.png");
   background-repeat: no-repeat, repeat;
   background-size: 80%;
   background-position: center;
@@ -49,7 +48,6 @@ a.quest {
 img:hover {
   border: 3px solid red;
   border-radius: 60px;
-
 }
 
 .stats-container {
