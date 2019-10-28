@@ -1,16 +1,16 @@
 import { saveUser } from '../data/saveUserApi.js';
-import makeUser from '../home/make-user.js';
+import makeUser from './make-user.js';
 
 const userSignUp = document.getElementById('user-sign-up');
 
-//when user hits sumbit button
 userSignUp.addEventListener('submit', function(event) {
     event.preventDefault();
     const formData = new FormData(userSignUp);
-    const user = makerUser(formData);
+    const user = makeUser(formData);
 
-  //this puts user into local storage?
+  // pop that user in local storage
     saveUser(user);
 
+  // redirect us to the map page
     window.location = 'map';
 });

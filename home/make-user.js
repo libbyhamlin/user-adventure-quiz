@@ -5,6 +5,7 @@ function makeUser(formData) {
         hp: 40,
         gold: 0,
         completed: {}
+        
     };
 
     return user;
@@ -19,3 +20,4 @@ export const newMakerUser = formData => ({
 });
 
 export default makeUser;
+
