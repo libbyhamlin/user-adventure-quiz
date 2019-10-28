@@ -1,9 +1,9 @@
 import loadProfile from '../common/load-profile.js';
-import { getUser, saveUser } from '../data/api.js';
+import { getUser, saveUser } from '../data/saveUserApi';
 import quests from '../data/quest-data.js';
-import createChoice from './create-choice.js';
+import createChoice from '../quest/create-choice.js';
 import findById from '../common/find-by-id.js';
-import scoreQuest from './score-quest.js';
+import scoreQuest from '../results/score-ghost.js';
 
 loadProfile();
 

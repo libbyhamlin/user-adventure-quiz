@@ -1,4 +1,4 @@
-import { getUser } from '../data/api.js';
+import { getUser } from '../data/saveUserApi.js';
 import quests from '../data/quest-data.js';
 import loadProfile from '../common/load-profile.js';
 import createQuestLink from './create-quest-link.js';

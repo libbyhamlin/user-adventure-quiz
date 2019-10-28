@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    background: black;
+    border-bottom: 1px solid red;
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    padding-left: 13%;
+}
+
+main {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.quest-grid-container {
+    display: grid;
+    grid-column-gap: 80px;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 3 repeat(1fr);
+}
+
+input, span {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#ghost-image {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+
+#quest-description {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: block;
+    /* width:  */
+}
+
+#form-div {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: block;
+}
+
+#hidden-results {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#choice-form {
+    display: inline;
+}
+
+.choice {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+
+.choice input {
+    margin-right: 10px;
+}
+
+#result {
+    background: black;
+    padding: 20px;
+}
+
+#result-description {
+    background: black;
+    font-weight: bolder;
+    border: 2px solid red;
+    border-radius: 2em;
+    padding: 8px;
+}

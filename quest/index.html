@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Results</title>
+        <link rel="stylesheet" href="../common/main.css">
+        <link rel="stylesheet" href="../quest/quest-slimer.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="profile">
+                <img id="avatar">
+                <span id="name"></span>
+                hp:<span id="hp"></span>
+                ghosts: <span id="ghosts"></span>
+            </div>
+        </header>
+
+        <main>
+            <h2 id="title"></h2>
+            <div class="quest-grid-container">
+
+                <div class="grid-item" id="ghost-image">
+                    <p width="250px"><img id="image"></p>
+                </div>
+                <div class="grid-item" id="quest-description">
+                    <h2 id="title"></h2>
+                    <p id="description"></p>
+                </div>
+                <div class="grid-item" id="form-div">
+                    <form id="choice-form">
+                        <p id="choices"></p>
+                        <button><img src="../assets/bust-it-submit-btn.png" /></button>
+                    </form>
+                </div>
+                <div class="grid-item" id="hidden-results">
+                    <section id="result" class="hidden">
+                        <p id="result-description"></p>
+                        <a href="../map">Back to Map</a>
+                    </section>
+                </div>
+            </main>
